@@ -28,7 +28,8 @@ public class ListaPaises {
 
     }
 
-    public Double getMaxCountryTN(ArrayList<Pais> list){
+    public String getMaxCountryTN(List<Pais> list){
+        String res = "";
         double max = 0;
         String pais = "";
         for (int i = 0; i < list.size(); i++) {
@@ -37,11 +38,12 @@ public class ListaPaises {
                 pais = list.get(i).getNombre();
             }
         }
-        System.out.println("El pais con mas tasa de natalidad es: " + pais);
-        return  max;
+        res = "El pais con mas tasa de natalidad es: " + pais;
+        return  res;
     }
 
-    public Double getMaxCountryTM(ArrayList<Pais> list){
+    public String getMaxCountryTM(List<Pais> list){
+        String res = "";
         double max = 0;
         String pais = "";
         for (int i = 0; i < list.size(); i++) {
@@ -50,12 +52,13 @@ public class ListaPaises {
                 pais = list.get(i).getNombre();
             }
         }
-        System.out.println("El pais con mas tasa de mortalidad es: " + pais);
-        return max;
+        res = "El pais con mas tasa de mortalidad es: " + pais;
+        return res;
     }
 
-    public  void  getMinCountryTN(ArrayList<Pais> list){
-        double min = getMaxCountryTN(list);
+    public  String getMinCountryTN(List<Pais> list){
+        String res = "";
+        double min = 100;
         String pais = "";
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i).getNewTasaNatalidad() < min) {
@@ -64,12 +67,13 @@ public class ListaPaises {
             }
         }
 
-        System.out.println("El pais con menos tasa de natalidad es: " + pais);
-
+        res = "El pais con menos tasa de natalidad es: " + pais;
+        return res;
     }
 
-    public  void  getMinCountryTM(ArrayList<Pais> list){
-        double min = getMaxCountryTM(list);
+    public String getMinCountryTM(List<Pais> list){
+        String res = "";
+        double min = 100;
         String pais = "";
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i).getNewTasaMortalidad() < min) {
@@ -78,7 +82,7 @@ public class ListaPaises {
             }
         }
 
-        System.out.println("El pais con menos tasa de mortalidad es: " + pais);
-
+        res = "El pais con menos tasa de mortalidad es: " + pais;
+        return res;
     }
 }

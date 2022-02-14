@@ -39,8 +39,15 @@ public class Main {
                 fileWriter.write(p.toString());
                 fileWriter.write("\n");
             }
+            fileWriter.write(listaPaises.getMaxCountryTN(listaPaisesOrdenada));
+            fileWriter.write("\n");
+            fileWriter.write(listaPaises.getMaxCountryTM(listaPaisesOrdenada));
+            fileWriter.write("\n");
+            fileWriter.write(listaPaises.getMinCountryTN(listaPaisesOrdenada));
+            fileWriter.write("\n");
+            fileWriter.write(listaPaises.getMinCountryTM(listaPaisesOrdenada));
+            fileWriter.write("\n");
             fileWriter.close();
-
         } catch(FileNotFoundException f){
             f.printStackTrace();
         } catch (IOException e) {
