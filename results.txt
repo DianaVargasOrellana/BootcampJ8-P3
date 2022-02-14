@@ -1,0 +1,7 @@
+Pais: Nigeria Contienente: Africa Tasa Natalidad: 2.5 Tasa Mortalidad: 7.6
+Pais: China Contienente: Asia Tasa Natalidad: 1.1 Tasa Mortalidad: 11.1
+Pais: Costa Rica Contienente: Centroamerica Tasa Natalidad: 2.8 Tasa Mortalidad: 8.9
+Pais: España Contienente: Europa Tasa Natalidad: 3.3 Tasa Mortalidad: 9.9
+Pais: Francia Contienente: Europa Tasa Natalidad: 2.5 Tasa Mortalidad: 6.9
+Pais: Canada Contienente: Norteamerica Tasa Natalidad: 2.8 Tasa Mortalidad: 8.8
+Pais: Bolivia Contienente: Sudamerica Tasa Natalidad: 2.8 Tasa Mortalidad: 7.8

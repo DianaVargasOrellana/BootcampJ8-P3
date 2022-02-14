@@ -1,0 +1,7 @@
+Francia TN=1.8 TM=8.1
+Bolivia TN=2.9 TM=8.2
+España TN=3.2 TM=7.9
+China TN=1.2 TM=10.1
+Canada TN=1.5 TM=8.2
+Nigeria TN=3.1 TM=8.6
+Costa Rica TN=2.3 TM=5.2
